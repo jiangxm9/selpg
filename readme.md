@@ -7,25 +7,33 @@
 - 测试文件为in.txt，文本内容为1-20的每行单个排列
 - 测试结果如下
     - selpg -s 1 -e 1 in.txt
+
     ![image](./picture/1.png)
 
     - selpg -s 1 -e 1 < in.txt
+
     ![image](./picture/2.png)
 
     - selpg -s1 -e1 in.txt >out.txt
+
     ![image](./picture/3.png)
 
     - selpg -s1 -e1 in.txt 2>error.txt
+
     ![image](./picture/4.png)
 
-    - selpg -s1 -e1 in.txt 2>dev/null
+    - selpg -s1 -e1 in.txt > out.txt 2>dev/null
+
     ![image](./picture/5.png)
 
     - 使用cat指令
+
     ![image](./picture/6.png)
 
     - 更改可显示的行数l
+
     ![image](./picture/7.png)
 
     - 报错信息
+
     ![image](./picture/8.png)
